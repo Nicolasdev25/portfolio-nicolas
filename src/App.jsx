@@ -45,7 +45,6 @@ function Icon({ n }) {
   );
 }
 
-/* ===== DADOS — edite aqui ===== */
 const SKILLS = [
   { n: "HTML5", l: "HTML", c: "#e44d26", v: 80 },
   { n: "CSS3", l: "CSS", c: "#1572b6", v: 75 },
@@ -61,9 +60,10 @@ const KNOW = [
   "Figma",
   "React Native",
   "Expo",
+  "React",
   "JavaScript",
 ];
-// Quando me enviar os projetos, é só preencher: img (foto), link, repo
+
 const PROJECTS = [
   {
     t: "Landing Page – Cuide-se",
@@ -204,7 +204,7 @@ function Hero() {
           <Typing />
           <p style={{ color: "var(--mu)", maxWidth: 480 }}>
             Construindo soluções digitais eficientes e escaláveis. Desenvolvedor
-            Front-End <b style={{ color: "var(--tx)" }}>Em Formação.</b>
+            Front-End <b style={{ color: "var(--tx)" }}></b>
           </p>
           <div className="btns">
             <a className="btn p" href="#projetos">
@@ -253,7 +253,7 @@ function About() {
               construir soluções digitais eficientes e escaláveis.
             </p>
             <p style={{ marginBottom: 0 }}>
-              Meu foco atual é conquistar uma vaga de <b>estágio</b> para
+              Meu foco atual é conquistar uma vaga de <b>Trabalho</b> para
               aplicar meus conhecimentos teóricos na prática.
             </p>
           </div>
@@ -455,7 +455,7 @@ function Contact() {
           Vamos <span>conversar?</span>
         </h2>
         <p className="sub">
-          Aberto a oportunidades de estágio em Desenvolvimento de Software /
+          Aberto a oportunidades de emprego em Desenvolvimento de Software /
           Frontend.
         </p>
         <div className="btns" style={{ justifyContent: "center" }}>
