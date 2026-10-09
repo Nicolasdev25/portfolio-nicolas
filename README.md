@@ -20,9 +20,8 @@ Reúne quem eu sou, as tecnologias que estudo, os projetos que já desenvolvi e 
 ## 🖥️ Prévia
 
 <p align="center">
-  <img src="docs/preview.png" alt="Prévia do portfólio" width="800" />
+  <img src="/src/docs/preview.png" alt="Prévia do portfólio" width="800" />
 </p>
--->
 
 ## 🔗 Links
 
