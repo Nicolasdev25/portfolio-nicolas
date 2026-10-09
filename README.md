@@ -160,7 +160,7 @@ Também é possível publicar em serviços como Vercel ou Netlify. Nesse caso, n
 
 ## 📬 Contato
 
-Aberto a oportunidades de estágio em Desenvolvimento de Software / Frontend. Fale comigo pelo [LinkedIn](https://www.linkedin.com/in/nicolas-leao) ou pelo [Instagram](https://www.instagram.com/nicolasnleao).
+Aberto a oportunidades de estágio em Desenvolvimento de Software / Frontend. Fale comigo pelo [LinkedIn](https://www.linkedin.com/in/nicolas-le%C3%A3o-4964203b0?utm_source=share_via&utm_content=profile&utm_medium=member_android) ou pelo [Instagram](https://www.instagram.com/nicolasnleao).
 
 ---
 
