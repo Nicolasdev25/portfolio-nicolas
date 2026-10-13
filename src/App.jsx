@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
-import fotoNicolas from "./assets/foto-nicolas.jpg";
+import fotoNicolas from "./assets/foto-nicolas.jpeg";
 import projetoCuideSe from "./assets/projeto-cuide-se.jpg";
 import projetoAstroObs from "./assets/projeto-astro-obs.jpg";
+import projetoLelleus from "./assets/lelleus-landing.png";
 import GiroCoin from "./assets/GiroCoin.png";
+import socialLink from "./assets/social-link.png";
 const PHOTO = fotoNicolas;
 const GITHUB = "https://github.com/Nicolasdev25";
 const SOCIALS = [
@@ -50,6 +52,8 @@ const SKILLS = [
   { n: "CSS3", l: "CSS", c: "#1572b6", v: 75 },
   { n: "JavaScript", l: "JS", c: "#d4b800", v: 55 },
   { n: "Python", l: "PY", c: "#3776ab", v: 40 },
+  { n: "React Native", l: "RN", c: "#3776ab", v: 60 },
+  { n: "React ", l: "R", c: "#3776ab", v: 40 },
 ];
 const KNOW = [
   "Lógica de Programação",
@@ -65,6 +69,26 @@ const KNOW = [
 ];
 
 const PROJECTS = [
+  {
+    t: "Social Links – Dra Fariza Fernandes",
+    d: 'Social Link para melhoria no contado de Médico com Pacientes".',
+    tags: ["HTML", "CSS", "Responsivo"],
+    cat: "Web",
+    img: socialLink,
+    g: ["#58a6ff", "#a371f7"],
+    link: "https://dra-fariza-social-links.vercel.app/",
+    repo: "https://github.com/Nicolasdev25/Dra-Fariza-Social-Links",
+  },
+  {
+    t: "Landing Page – Lelleus 3D",
+    d: 'Landing page moderna e responsiva para Microempreendedor no ramo de venda de itens feitos com impressora 3d".',
+    tags: ["HTML", "CSS", "Responsivo", "JavaScript"],
+    cat: "Web",
+    img: projetoLelleus,
+    g: ["#58a6ff", "#a371f7"],
+    link: "https://landing-page-lelleus3d.vercel.app/",
+    repo: "https://github.com/Nicolasdev25/Landing-Page-lelleuss.3d",
+  },
   {
     t: "Landing Page – Cuide-se",
     d: 'Landing page moderna e responsiva para a divulgação e venda do e-book "Cuide-se: A Conexão Invisível entre Emoções, Sono e Saúde Cardiovascular-Renal-Metabólica".',
@@ -98,7 +122,7 @@ const PROJECTS = [
 ];
 const ROLES = [
   "Estudante de Engenharia de Software",
-  "Desenvolvedor Frontend em formação",
+  "Desenvolvedor Frontend",
   "Em transição de carreira para tech",
 ];
 
@@ -286,7 +310,7 @@ function About() {
         <div className="stats">
           {[
             ["33", "anos de experiência de vida"],
-            ["4", "tecnologias"],
+            ["6", "tecnologias"],
             ["+", "projetos a caminho"],
           ].map(([a, b]) => (
             <div key={b} className="card stat">
